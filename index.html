@@ -1982,13 +1982,56 @@
                   <!-- <span>Early Career Days</span> -->
                 <!-- </div> -->
               </div>
-              <div class="photo-item">
-                <video src="./images/memories-5.mp4" controls></video>
+              <!-- <div class="photo-item"> -->
+                <!-- <video src="./images/memories-5.mp4" controls></video> -->
                 <!-- <span class="photo-ph">📸</span> -->
                 <!-- <div class="photo-overlay"> -->
                   <!-- <span>Colleagues & Friends</span> -->
                 <!-- </div> -->
-              </div>
+              <!-- </div> -->
+              <div class="photo-item">
+  <video
+    src="./images/memories-5.mp4"
+    style="
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    "
+    controls
+    muted
+    loop
+    autoplay
+    playsinline
+  ></video>
+
+  <!-- Video indicator icon -->
+  <div style="
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    background: rgba(0,0,0,0.55);
+    backdrop-filter: blur(4px);
+    border-radius: 50px;
+    padding: 0.3rem 0.7rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  ">
+    <!-- Play triangle icon -->
+    <svg width="10" height="10" viewBox="0 0 24 24" fill="white">
+      <polygon points="5,3 19,12 5,21"/>
+    </svg>
+    <span style="
+      color: white;
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    ">Video</span>
+  </div>
+
+  <!-- <div class="photo-overlay"><span>Memory Video</span></div> -->
+</div>
               <!-- Large feature photo bottom -->
               <!-- <div style="grid-column: span 2" class="photo-item">
                 <span class="photo-ph">📸</span>
